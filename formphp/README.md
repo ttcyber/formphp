@@ -3,11 +3,9 @@
 This is a php mysql (mariaBD) application 
  Craig Coleman(Tri-Tech)
 
-create table code:
-
-se database stream;
-
-rant all privileges on stream.* TO 'user'@'localhost' IDENTIFIED BY 'passwords'; 
+- create table code:
+- use database stream;
+- grant all privileges on stream.* TO 'user'@'localhost' IDENTIFIED BY 'passwords'; 
 
 REATE TABLE IF NOT EXISTS `formdata` (
   `id` int(32) NOT NULL auto_increment,

@@ -98,9 +98,8 @@ echo " <hr />DEBUG $query  <hr />";
 
 ?>
 
-
-	<pre>
-		
+<pre>
+Code to create table with the database stream.		
 >use database stream;
 CREATE TABLE IF NOT EXISTS `formdata` (
   `id` int(32) NOT NULL auto_increment,

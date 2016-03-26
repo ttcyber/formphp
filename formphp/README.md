@@ -1,7 +1,7 @@
 # form input to a mariadb database using php
 This is a php mysql (mariaBD) application 
  Craig Coleman(Tri-Tech)
- 
+ <pre>
  create table;
 >use database stream;
 >grant all privileges on stream.* TO 'user'@'localhost' IDENTIFIED BY 'passwords'; 
@@ -15,4 +15,4 @@ CREATE TABLE IF NOT EXISTS `formdata` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=0 ;
 
-
+</pre>

@@ -49,18 +49,21 @@ if(empty($_POST['number'])){  $number_input = "Number";  }
 
 <hr />
 
-
+this is the input form
 
 <form  method="post">
 <svg height="30" width="30"><circle cx="15" cy="15" r="15"  fill="#ff7f00" /> </svg>
+
 &nbsp;	First Name<input type="text" name="name" maxlength="20"> 
+
 <svg height="30" width="30"><circle cx="15" cy="15" r="15"  fill="#ff7f00" /></svg>
+
 &nbsp;  Number<input type="text" name="number" maxlength="10"> 
 
 <button type="submit">Submit</button>
 </form>
  
-<hr />
+this is the end of the input form
 
 
 <?php
